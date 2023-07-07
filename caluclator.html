@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="caluclator.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="wrapper">
+        <h1 id="header">電卓</h1>
+        <div id="calc">
+          <div>
+            <input id="display" class="display" type="text" value="0">
+          </div>
+          <div>
+            <button id= "number" onclick="num_click(this.innerHTML)">7</button>
+            <button id= "number" onclick="num_click(this.innerHTML)">8</button>
+            <button id= "number" onclick="num_click(this.innerHTML)">9</button>
+            <button id = "operator-0" disabled onclick="ope_click(this.innerHTML)">+</button>
+          </div>
+          <div>
+            <button id= "number" onclick="num_click(this.innerHTML)">4</button>
+            <button id= "number" onclick="num_click(this.innerHTML)">5</button>
+            <button id= "number" onclick="num_click(this.innerHTML)">6</button>
+            <button id = "operator-1" disabled onclick="ope_click(this.innerHTML)">-</button>
+          </div>
+          <div>
+            <button id= "number" onclick="num_click(this.innerHTML)">1</button>
+            <button id= "number" onclick="num_click(this.innerHTML)">2</button>
+            <button id= "number" onclick="num_click(this.innerHTML)">3</button>
+            <button id = "operator-2" disabled onclick="ope_click(this.innerHTML)">×</button>
+          </div>
+          <div>
+            <button id= "number" onclick="num_click(this.innerHTML)">0</button>
+            <button id= "number" onclick="num_click(this.innerHTML)">00</button>
+            <button id= "decimal" onclick="dec_click(this.innerHTML)">.</button>
+            <button id = "operator-3" disabled onclick="ope_click(this.innerHTML)">÷</button>
+          </div>
+          <div> 
+            <button class="row_5" onclick="ac_click()">AC</button>
+            <button class="row_5" onclick="equal_click(this.innerHTML)">=</button>
+          </div>
+        </div>
+</div>
+
+<script src="caluclator.js"></script>
+</body>

@@ -1,0 +1,32 @@
+.wrapper{
+    max-width: 350px;
+    margin: 0 auto;
+    color: #666;
+    text-align: center;
+}
+
+/* 表示 */
+.display{
+    box-sizing: border-box;
+    width: 90%;
+    height: 60px;
+    font-size: 25px;
+    text-align: right;
+    background-color: black;
+    color: white;
+}
+/* ボタン */
+button{
+    font-size: 18px;
+    width: 20%;
+    height: 50px;
+    margin: 2px;
+}
+
+.row_5{
+    width:43%;
+    height: 50px;
+}
+button:hover{
+    background-color: gray;
+}
