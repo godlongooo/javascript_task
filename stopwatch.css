@@ -1,0 +1,32 @@
+/*全体*/
+.wrapper{
+	max-width: 600px;
+	margin: 0 auto;
+	color: black;
+	text-align: center;
+}
+
+/* 時間表示 */
+#time{
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+/*ボタン*/
+button {
+    padding: 20px;
+    font-size: 30px;
+    display: inline-block;
+    border: none;
+    color: #FFF;
+    background-color: black;
+    border-radius: 10px;
+}
+button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+button:disabled {
+    cursor: default;
+    background-color: gray;
+}
